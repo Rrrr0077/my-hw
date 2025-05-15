@@ -1,9 +1,6 @@
 import sqlite3
 from datetime import datetime
 
-import sqlite3
-from datetime import datetime
-
 def create_tables():
     try:
         with sqlite3.connect("kfc.db") as conn:
